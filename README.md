@@ -121,7 +121,7 @@ eslint-plugin-react-refresh
 Add scripts to `package.json`:
 
 ```bash
-"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --fix",
 "prettier": "prettier . --write",
 "format": "npm run lint && npm run prettier",
 ```
@@ -221,7 +221,6 @@ export default tseslint.config(
     },
   }
 )
-
 ```
 
 
